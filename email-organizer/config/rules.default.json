@@ -1,0 +1,95 @@
+{
+  "_comment": "Defaults. Copy to config/my-rules.json (gitignored) and edit. Keys in my-rules.json replace the same keys here; lists named in 'append_keys' are merged instead.",
+  "append_keys": ["never_touch", "vip_senders", "work_domains", "job_alert_senders", "sender_labels", "noise_senders", "extra_two_part_tlds"],
+
+  "owner_addresses": [],
+  "work_domains": [],
+  "vip_senders": [],
+  "never_touch": [],
+
+  "labels": {
+    "jobs_alerts": "Jobs/Alerts",
+    "jobs_applications": "Jobs/Applications",
+    "jobs_interviews": "Jobs/Interviews",
+    "jobs_rejections": "Jobs/Rejections",
+    "finance": "Finance",
+    "receipts": "Receipts & Orders",
+    "bills": "Bills",
+    "travel": "Travel",
+    "learning": "Learning",
+    "news": "Subscriptions/News",
+    "deals": "Subscriptions/Deals",
+    "social": "Social",
+    "dev": "Subscriptions/Tech"
+  },
+
+  "job_alert_senders": [
+    "jobalerts-noreply@linkedin.com",
+    "jobs-noreply@linkedin.com",
+    "jobs-listings@linkedin.com",
+    "bdjobs.com",
+    "skill.jobs",
+    "glassdoor.com",
+    "indeed.com",
+    "wellfound.com"
+  ],
+
+  "job_reply_patterns": {
+    "interview": ["interview", "shortlisted", "short-listed", "assessment", "assignment", "test schedule", "viva", "next round", "next step", "availability for a call", "offer letter", "job offer", "pleased to offer"],
+    "rejection": ["unfortunately", "not moving forward", "not been selected", "other candidates", "regret to inform", "will not be proceeding", "position has been filled"],
+    "application": ["application received", "thank you for applying", "thanks for applying", "your application", "application submitted", "we received your application"]
+  },
+
+  "security_patterns": ["verification code", "verify your", "one-time", "otp", "passcode", "security code", "sign-in code", "login code", "magic link", "password reset", "reset your password", "new sign-in", "new login", "security alert", "two-factor", "2-step", "recovery", "confirm your email"],
+  "security_urgent_patterns": ["suspicious", "unusual activity", "unrecognized", "was this you", "account locked", "compromised"],
+
+  "protected_patterns": {
+    "bills": ["bill", "payment due", "due date", "overdue", "utility", "dpdc", "desco", "titas", "wasa"],
+    "finance": ["statement", "transaction", "tax", "salary", "payslip", "pay slip", "pay advice", "credit card", "loan", "emi", "remittance", "fund transfer", "debited", "credited", "fraud"],
+    "receipts": ["receipt", "invoice", "order #", "order no", "order confirmed", "your order", "shipped", "out for delivery", "delivered", "tracking", "refund"],
+    "travel": ["booking", "itinerary", "e-ticket", "boarding pass", "flight", "reservation", "pnr"],
+    "records": ["contract", "policy", "claim", "lease", "certificate", "transcript", "admit card", "result"]
+  },
+
+  "urgent_patterns": ["urgent", "asap", "by eod", "end of day", "deadline", "rsvp", "action required", "respond by", "today", "tomorrow", "overdue", "final notice", "fraud"],
+
+  "noise_patterns": {
+    "deals": ["% off", "sale", "discount", "limited time", "flash", "coupon", "promo code", "cashback", "cash back", "free shipping", "deal", "offer ends", "last chance"],
+    "social": ["viewed your profile", "new follower", "mentioned you", "tagged you", "friend request", "commented on", "reacted to", "connection request", "people you may know"],
+    "news": ["newsletter", "digest", "weekly roundup", "this week in", "daily brief", "top stories", "edition"],
+    "learning": ["webinar", "course", "masterclass", "workshop", "enroll now", "certification"]
+  },
+
+  "noise_senders": [
+    "facebookmail.com",
+    "quora.com",
+    "pinterest.com",
+    "medium.com",
+    "substack.com",
+    "beehiiv.com"
+  ],
+
+  "sender_labels": {
+    "linkedin.com": "Social",
+    "facebookmail.com": "Social",
+    "medium.com": "Subscriptions/News",
+    "substack.com": "Subscriptions/News",
+    "github.com": "Subscriptions/Tech",
+    "coursera.org": "Learning",
+    "udemy.com": "Learning",
+    "daraz.com.bd": "Receipts & Orders",
+    "foodpanda.com.bd": "Receipts & Orders",
+    "pathao.com": "Receipts & Orders",
+    "biman-airlines.com": "Travel",
+    "usbair.com": "Travel",
+    "novoair-bd.com": "Travel"
+  },
+
+  "cleanup": {
+    "active_months": 6,
+    "min_messages_for_delete_default": 5,
+    "receipt_keep_days": 14
+  },
+
+  "extra_two_part_tlds": []
+}

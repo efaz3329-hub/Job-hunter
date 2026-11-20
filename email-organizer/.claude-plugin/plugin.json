@@ -1,0 +1,7 @@
+{
+  "name": "email-organizer",
+  "version": "0.1.0",
+  "description": "Gmail organizer for Efaz: daily triage, sender inventory and safe cleanup, real unsubscribes, labels and importable filters, and job-mail handoff to Job-hunter. Trash-only, review-first, with an undo log.",
+  "author": { "name": "Efaz" },
+  "license": "MIT"
+}
