@@ -1,0 +1,11 @@
+[
+  {"id": "m1", "from": "LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>", "subject": "CRM Executive at Daraz and 7 more jobs in Dhaka", "snippet": "New jobs match your preferences", "labels": ["INBOX", "CATEGORY_UPDATES"], "list_unsubscribe": true},
+  {"id": "m2", "from": "Talent Team <talent@shajgoj.com>", "subject": "Interview invitation: Customer Engagement Executive", "snippet": "We would like to invite you for an interview on Sunday", "labels": ["INBOX"]},
+  {"id": "m3", "from": "Google <no-reply@accounts.google.com>", "subject": "Security alert: new sign-in on Windows", "snippet": "We noticed a new sign-in", "labels": ["INBOX"]},
+  {"id": "m4", "from": "DESCO <billing@desco.org.bd>", "subject": "Your electricity bill: payment due tomorrow", "snippet": "Amount BDT 1,240", "labels": ["INBOX"]},
+  {"id": "m5", "from": "Daraz <promo@mail.daraz.com.bd>", "subject": "11.11 Flash Sale: up to 80% off", "snippet": "Last chance", "labels": ["INBOX", "CATEGORY_PROMOTIONS"], "list_unsubscribe": "<https://daraz.com.bd/u?x=1>"},
+  {"id": "m6", "from": "Rafi <rafi.ahmed@gmail.com>", "subject": "Saturday plan?", "snippet": "Are we still on for Saturday?", "labels": ["INBOX"]},
+  {"id": "m7", "from": "Medium Daily Digest <noreply@medium.com>", "subject": "Top stories for you", "snippet": "", "labels": ["INBOX"], "list_unsubscribe": true},
+  {"id": "m8", "from": "careers@robi.com.bd", "subject": "Your application for Digital Marketing Executive", "snippet": "Unfortunately we will not be proceeding with your application", "labels": ["INBOX"]},
+  {"id": "m9", "from": "Someone <someone@startup.io>", "subject": "Quick question about your CRM experience", "snippet": "Would you have 15 minutes", "labels": ["INBOX"]}
+]

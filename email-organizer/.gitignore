@@ -1,0 +1,6 @@
+# Personal mailbox data stays out of the repository
+config/my-rules.json
+work/
+logs/
+__pycache__/
+*.pyc

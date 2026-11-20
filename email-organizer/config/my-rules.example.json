@@ -1,0 +1,17 @@
+{
+  "_comment": "Copy to my-rules.json (gitignored) and fill in. Lists here are added to the defaults; other keys replace them.",
+  "owner_addresses": ["you@gmail.com"],
+  "work_domains": ["bkash.com"],
+  "vip_senders": ["family.member@gmail.com"],
+  "never_touch": ["a-newsletter-you-read@example.com"],
+  "sender_labels": {
+    "shohoz.com": "Travel",
+    "10minuteschool.com": "Learning"
+  },
+  "noise_senders": [],
+  "_preferences": {
+    "labelled_mail_stays_in_inbox": true,
+    "cleanup_mode": "safe"
+  },
+  "_approvals": []
+}
