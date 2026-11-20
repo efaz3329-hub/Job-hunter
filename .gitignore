@@ -1,0 +1,9 @@
+# Personal data stays out of the repository
+profile.md
+master-cv.md
+tracker.csv
+reports/
+applications/
+cv/
+*.pdf
+*.docx
